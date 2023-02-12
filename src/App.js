@@ -1,13 +1,15 @@
 import "bootstrap/dist/css/bootstrap.min.css"
 import './App.css';
+import './index.css';
+import './books.css';
+import './nav_cv.css';
 import { BrowserRouter, Routes, Route } from "react-router-dom"
 // import Auth from "./Auth"
 import Login from "./Login"
 import Register from "./Register";
 import Reset from "./Reset";
 import Dashboard from "./Dashboard";
-import Home from "./Home";  
-
+import Home from "./Home";
 function App() {
   return (
     
@@ -16,7 +18,8 @@ function App() {
       //     <Route exaxt path = "/" component = {Login} />
       //   </Switch>
       // </Router>
-        
+      
+      
       <BrowserRouter>
         <Routes>
           <Route path = "/" element={<Login/>} />

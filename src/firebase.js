@@ -19,14 +19,14 @@ import {
 } from "firebase/firestore"
 
 const firebaseConfig = {
-  apiKey: "AIzaSyDo1rVdWObbknK8_Sb3CoGA_I3Bu53Dprc",
-  authDomain: "fintech-lib.firebaseapp.com",
-  databaseURL: "https://fintech-lib-default-rtdb.europe-west1.firebasedatabase.app",
-  projectId: "fintech-lib",
-  storageBucket: "fintech-lib.appspot.com",
-  messagingSenderId: "369940692615",
-  appId: "1:369940692615:web:e9dd2eb655408789264222"
-};
+    apiKey: "AIzaSyDo1rVdWObbknK8_Sb3CoGA_I3Bu53Dprc",
+    authDomain: "fintech-lib.firebaseapp.com",
+    databaseURL: "https://fintech-lib-default-rtdb.europe-west1.firebasedatabase.app",
+    projectId: "fintech-lib",
+    storageBucket: "fintech-lib.appspot.com",
+    messagingSenderId: "369940692615",
+    appId: "1:369940692615:web:e9dd2eb655408789264222"
+  };
 
 // Initialize Firebase
 const app = initializeApp(firebaseConfig);

@@ -1,0 +1,61 @@
+body {
+    background-color: rgb(192, 184, 184);
+    margin: 0;
+}
+
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    z-index: 3;
+  }
+
+.flex-item {
+    position: relative;
+    background-color: none;
+    overflow: hidden;
+    text-align: center;
+    padding: 9px;
+    flex: 13%;
+}
+
+.box-img {
+    height: 180px;
+    width: 137px; /* or auto, works both ways with current img res */
+                  /* it may not in the future when other pics will be added */
+    border: 3px solid black;
+}
+
+.box-img:hover {
+    cursor: grab;
+}
+
+@media (max-width: 1250px) {
+    .flex-item {
+        flex: 18%;
+    }
+}
+
+@media (max-width: 960px) {
+    .flex-item {
+        flex: 21%;
+    }
+}
+
+@media (max-width: 720px) {
+    .flex-item {
+        flex: 28%;
+    }
+}
+
+@media (max-width: 560px) {
+    .flex-item {
+        flex: 45%;
+    }
+}
+
+@media (max-width: 369px) {
+    .flex-item {
+        justify-content: flex-start;
+        flex: 100%;
+    }
+}
