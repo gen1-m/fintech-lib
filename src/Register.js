@@ -1,10 +1,13 @@
 import React, { useEffect, useState } from "react";
 import { useAuthState } from "react-firebase-hooks/auth";
 import { Link, useNavigate } from "react-router-dom";
+/**
+ * signInWithGoogle() function commented out ~ disabled
+ */
 import {
   auth,
   registerWithEmailAndPassword,
-  signInWithGoogle,
+  // signInWithGoogle,
 } from "./firebase";
 import "./Register.css";
 function Register() {
@@ -48,12 +51,6 @@ function Register() {
         <button className="register__btn" onClick={register}>
           Register
         </button>
-        <button
-          className="register__btn register__google"
-          onClick={signInWithGoogle}
-        >
-          Register with Google
-        </button>
         <div>
           Already have an account? <Link to="/">Login</Link> now.
         </div>
@@ -62,3 +59,11 @@ function Register() {
   );
 }
 export default Register;
+
+// The Register with Google button 
+{/* <button
+  className="register__btn register__google"
+  onClick={signInWithGoogle}
+>
+  Register with Google
+</button> */}

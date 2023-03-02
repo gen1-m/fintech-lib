@@ -1,7 +1,8 @@
-.dashboard {
+  .dashboard {
     height: 100vh;
     width: 100vw;
     display: flex;
+    background-color: #565775;
     align-items: center;
     justify-content: center;
   }
@@ -10,16 +11,66 @@
     flex-direction: column;
     text-align: center;
     background-color: #dcdcdc;
-    padding: 30px;
+    padding: 40px 80px;
+    border-radius: 0.75cm;
   }
   .dashboard__btn {
+    font-family:'Gill Sans', 
+                'Gill Sans MT', 
+                'Trebuchet MS', 
+                sans-serif;
     padding: 10px;
     font-size: 18px;
-    margin-top: 10px;
-    border: none;
+    margin-bottom: 10px;
+    border-color: #191B48;
     color: white;
-    background-color: black;
+    background-color: #191B48;
+    border-radius: 0.5cm;
+  }
+  .dashboard__btn:hover {
+    background-color: #dcdcdc;
+    color: #191B48;
+    border-color: #191B48;
+    border-radius: 0.5cm;
+    opacity: 1;
+    transition: 0.3s;
+  }
+  .backButton {
+    color: #fff;
+    text-decoration: none;
+  }
+  .backButton:hover {
+    color: #191B48;
   }
   .dashboard div {
     margin-top: 7px;
+  }
+  .h1 {
+    text-align: inherit;
+    color: #191B48;
+    font-weight: bold;
+  }
+  .h4 {
+    font-family:'Gill Sans', 
+                'Gill Sans MT', 
+                'Trebuchet MS', 
+                'Calibri',
+                sans-serif;
+    font-size: 20px;
+    border-radius: 0.5cm;
+    text-decoration: none;
+    padding: 10px;
+    color: #000;
+  }
+  .userName {
+    font-weight: bold;
+  }
+  .userEmail {
+    font-family:'Gill Sans', 
+                'Gill Sans MT', 
+                Calibri, 
+                'Trebuchet MS', 
+                sans-serif;
+    font-size: 20px;
+    font-weight: bold;
   }

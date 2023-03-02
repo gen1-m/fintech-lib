@@ -28,11 +28,11 @@ function Reset() {
         >
           Send password reset email
         </button>
-        <div>
-          Don't have an account? <Link to="/register">Register</Link> now.
-        </div>
       </div>
     </div>
   );
 }
 export default Reset;
+{/* <div>
+  Don't have an account? <Link to="/register">Register</Link> now.
+</div> */}
