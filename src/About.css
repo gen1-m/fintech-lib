@@ -69,6 +69,16 @@
 	color: black;
 }
 
+.textFooter {
+    text-align: center;
+    padding: 30px 0;
+    font-family: 'Ubuntu', 
+                sans-serif;
+    display: flex;
+    justify-content: center;
+    color: #fff;
+}
+
 .linkFooter {
     color: #53639b;
     margin-left: 5px;
@@ -189,12 +199,4 @@
     text-align: center;
 }
 
-.text-footer {
-    text-align: center;
-    padding: 30px 0;
-    font-family: 'Ubuntu', 
-                sans-serif;
-    display: flex;
-    justify-content: center;
-    color: #fff;
-} */
+*/
