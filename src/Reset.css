@@ -4,26 +4,55 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    background-color: #565775;
   }
   .reset__container {
     display: flex;
     flex-direction: column;
     text-align: center;
     background-color: #dcdcdc;
-    padding: 30px;
+    padding: 40px 80px;
+    border-radius: 0.75cm;
+  }
+  .title {
+    font-family:'Gill Sans', 
+                'Gill Sans MT', 
+                'Trebuchet MS', 
+                sans-serif;
+    font-size: 30px;
+    color: #191B48;
+    margin-bottom: 20px;
   }
   .reset__textBox {
-    padding: 10px;
-    font-size: 18px;
-    margin-bottom: 10px;
+    font-family:'Gill Sans', 
+              'Gill Sans MT', 
+              'Trebuchet MS', 
+              sans-serif;
+  padding: 10px;
+  font-size: 18px;
+  margin-bottom: 10px;
+  border-radius: 0.25cm;
   }
   .reset__btn {
+    font-family:'Gill Sans', 
+                'Gill Sans MT', 
+                'Trebuchet MS', 
+                sans-serif;
     padding: 10px;
     font-size: 18px;
     margin-bottom: 10px;
-    border: none;
+    border-color: #191B48;
     color: white;
-    background-color: black;
+    background-color: #191B48;
+    border-radius: 0.5cm;
+  }
+  .reset__btn:hover {
+    background-color: #dcdcdc;
+    color: #191B48;
+    border-color: #191B48;
+    border-radius: 0.5cm;
+    opacity: 1;
+    transition: 0.3s;
   }
   .reset div {
     margin-top: 7px;

@@ -1,0 +1,52 @@
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    min-height: 130vh;
+}
+
+footer {
+    position: relative;
+    left: 0;
+    bottom: 0;
+    padding: 7%;  
+    background-color: #191B48;
+    color: white;   
+    text-align: center;
+}
+
+.content {
+    text-align: center;
+	padding: 50px 0;
+	font-family: 'Ubuntu', sans-serif;
+	display: flex;
+	justify-content: center;
+	color: #fff;
+}
+
+.content a:hover {
+    color: #191B48;
+    cursor: grab;
+}
+
+/* .mails {
+    padding: 6px;
+    align-items: center;
+    text-align: center;
+    color: #000;
+    margin-left: 5px;
+    margin-right: 5px;
+    text-decoration: none;
+    font-style: normal;
+    font-display: inherit ;
+} */
+
+/* .header {
+    font-weight: bold;
+    font-size: 10px;
+    text-align: center;
+	padding: 30px 0;
+	font-family: 'Ubuntu', sans-serif;
+	display: flex;
+	justify-content: center;
+	color: #fff;
+} */

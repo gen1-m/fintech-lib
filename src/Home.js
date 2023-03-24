@@ -1,6 +1,7 @@
 import './Home.css';
 // import { registerBook, addBook } from './firebase'
 import { ibcmLogoWhite } from '.';
+import Footer from './Footer.js';
 import { book_1 } from '.';
 import { book_2 } from '.';
 import { book_3 } from '.';
@@ -39,11 +40,11 @@ function Home() {
                         Home
                     </a>
                 </li>
-                <li class="navbar_cv-item">
+                {/* <li class="navbar_cv-item">
                     <form class="searchContainer" action="processSearch.php">
                         <input type="text" placeholder="Book.." name="searchBar"/>
                     </form>
-                </li>
+                </li> */}
             </ul>
             
             <br/><br/><br/>
@@ -112,19 +113,15 @@ function Home() {
                 <div className="flex-item"></div>
 
             </div>
-
-            {/* -------------------- Footer ------------------ */}
-            <footer className="footer">
-                <p className="text-footer">
-                    Contact:
-                    <a link className="linkFooter" href="https://www.ibcms.de/contact">
-                        fintech@ibcms.de
-                    </a>
-                    ©-All rights are reserved
-                </p>
-            </footer>
+            
+            <Footer/>           
+            
         </div>
+        
+
     )
+        
+        
 }
 export default Home;
 

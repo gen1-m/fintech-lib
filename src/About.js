@@ -1,5 +1,6 @@
 import "./About.css";
 import { ibcmLogoWhite } from ".";
+import Footer from './Footer.js'
 
 function About() {
     return (
@@ -24,11 +25,6 @@ function About() {
                     <a href="/home">
                         Home
                     </a>
-                </li>
-                <li class="navbar_cv-item">
-                    <form class="searchContainer" action="processSearch.php">
-                        <input type="text" placeholder="Book.." name="searchBar"/>
-                    </form>
                 </li>
             </ul>
 
@@ -59,15 +55,7 @@ function About() {
             <br/><br/><br/>
             
             {/* ----------------- Footer ------------------ */}
-            <footer className="footer">
-                <p className="textFooter">
-                    Contact:
-                    <a link className="linkFooter" href="fintech@ibcms.de">
-                        fintech@ibcms.de
-                    </a>
-                    ©-All rights are reserved
-                </p>
-            </footer>
+            <Footer/>
         </div>
     )
 }
