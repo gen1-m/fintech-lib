@@ -10,6 +10,10 @@ import Dashboard from "./Dashboard";
 import Home from "./Home";
 import About from "./About";
 
+// importing register for Krystyna to use the page to register 
+// all the members with all the neccessary properties 
+import Register from "./Register";
+
 function App() {
   return (     
     <BrowserRouter>
@@ -18,7 +22,8 @@ function App() {
           <Route path = "/dashboard" element = {<Dashboard/>} />
           <Route path = "/home" element = {<Home/>} />
           <Route path = "/reset" element = {<Reset/>} /> 
-          <Route path="/about" element={<About/>} />
+          <Route path= "/about" element={<About/>} />
+          <Route path= "/register" element={<Register/>} />
         </Routes>
       </BrowserRouter>
   )
